@@ -6,7 +6,7 @@ int main()
     float pi = 3.14, r, h,R;
     printf("Radius???\n");
     scanf("%f",&r);
-    printf("Area = %-14.2f\n", pi*r*r);
+    printf("Area = %.2f\n", pi*r*r);
     /*now for the volume of the cylinder*/
     printf("Radius of cylinder??\n");
     scanf("%f",&R);
