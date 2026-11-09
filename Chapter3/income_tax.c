@@ -15,7 +15,7 @@ int main()
     scanf("%d", &Annual_income);
     if (Annual_income < 250000)
     {
-        printf("BSDK Bhikhari, You don't need to pay Income Tax\n");
+        printf("You don't need to pay Income Tax\n");
         printf("Income Tax is %d", 0);
     }
     else if (Annual_income >= 250000 && Annual_income <= 500000)

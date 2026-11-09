@@ -7,12 +7,12 @@ int main()
     scanf("%d", &n);
 
     if (n <= 1)
-        d = 1;                      // not prime
+        d = 1; // not prime
     else if (n % 2 == 0 && n != 2)
-        d = 1;                      // even numbers except 2 are not prime
+        d = 1; // even numbers except 2 are not prime
     else
     {
-        for (i = 3; i * i <= n; i += 2)   // odd divisors only, up to √n
+        for (i = 3; i * i <= n; i += 2) // odd divisors only, up to √n
         {
             if (n % i == 0)
             {
